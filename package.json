@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:8002/",
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@fontsource/montserrat": "^4.5.7",
     "@fontsource/raleway": "^4.5.5",
