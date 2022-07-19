@@ -2,7 +2,7 @@ import React from "react";
 import "./topbar.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Language, Settings } from "@material-ui/icons";
+
 import { RiLogoutCircleLine } from "react-icons/ri";
 export default function Topbar(props) {
   const logout = () => {
@@ -52,11 +52,11 @@ export default function Topbar(props) {
           </h5>
           <div className="topbarIconContainer">
             <Link to="/">
-              <Language />
+              i
             </Link>
           </div>
           <div className="topbarIconContainer">
-            <Settings />
+            setting
           </div>
           <img
             src={`/uploads/${viewdata.image}`}
